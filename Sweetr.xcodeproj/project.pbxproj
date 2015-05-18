@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8E6C6CD1B0A2CAA00F64560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6C6CC1B0A2CAA00F64560 /* AppDelegate.swift */; };
+		E8E6C6CF1B0A2CAA00F64560 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6C6CE1B0A2CAA00F64560 /* FirstViewController.swift */; };
+		E8E6C6D11B0A2CAA00F64560 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6C6D01B0A2CAA00F64560 /* SecondViewController.swift */; };
+		E8E6C6D41B0A2CAA00F64560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E6C6D21B0A2CAA00F64560 /* Main.storyboard */; };
+		E8E6C6D61B0A2CAA00F64560 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E6C6D51B0A2CAA00F64560 /* Images.xcassets */; };
+		E8E6C6D91B0A2CAA00F64560 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E6C6D71B0A2CAA00F64560 /* LaunchScreen.xib */; };
+		E8E6C6E51B0A2CAA00F64560 /* SweetrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6C6E41B0A2CAA00F64560 /* SweetrTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8E6C6DF1B0A2CAA00F64560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E6C6BF1B0A2CAA00F64560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E6C6C61B0A2CAA00F64560;
+			remoteInfo = Sweetr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8E6C6C71B0A2CAA00F64560 /* Sweetr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweetr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6C6CB1B0A2CAA00F64560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E6C6CC1B0A2CAA00F64560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8E6C6CE1B0A2CAA00F64560 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E8E6C6D01B0A2CAA00F64560 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E8E6C6D31B0A2CAA00F64560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8E6C6D51B0A2CAA00F64560 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8E6C6D81B0A2CAA00F64560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8E6C6DE1B0A2CAA00F64560 /* SweetrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6C6E31B0A2CAA00F64560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E6C6E41B0A2CAA00F64560 /* SweetrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetrTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E6C6C41B0A2CAA00F64560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6C6DB1B0A2CAA00F64560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8E6C6BE1B0A2CAA00F64560 = {
+			isa = PBXGroup;
+			children = (
+				E8E6C6C91B0A2CAA00F64560 /* Sweetr */,
+				E8E6C6E11B0A2CAA00F64560 /* SweetrTests */,
+				E8E6C6C81B0A2CAA00F64560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E6C6C81B0A2CAA00F64560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6C6C71B0A2CAA00F64560 /* Sweetr.app */,
+				E8E6C6DE1B0A2CAA00F64560 /* SweetrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E6C6C91B0A2CAA00F64560 /* Sweetr */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6C6CC1B0A2CAA00F64560 /* AppDelegate.swift */,
+				E8E6C6CE1B0A2CAA00F64560 /* FirstViewController.swift */,
+				E8E6C6D01B0A2CAA00F64560 /* SecondViewController.swift */,
+				E8E6C6D21B0A2CAA00F64560 /* Main.storyboard */,
+				E8E6C6D51B0A2CAA00F64560 /* Images.xcassets */,
+				E8E6C6D71B0A2CAA00F64560 /* LaunchScreen.xib */,
+				E8E6C6CA1B0A2CAA00F64560 /* Supporting Files */,
+			);
+			path = Sweetr;
+			sourceTree = "<group>";
+		};
+		E8E6C6CA1B0A2CAA00F64560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6C6CB1B0A2CAA00F64560 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8E6C6E11B0A2CAA00F64560 /* SweetrTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6C6E41B0A2CAA00F64560 /* SweetrTests.swift */,
+				E8E6C6E21B0A2CAA00F64560 /* Supporting Files */,
+			);
+			path = SweetrTests;
+			sourceTree = "<group>";
+		};
+		E8E6C6E21B0A2CAA00F64560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6C6E31B0A2CAA00F64560 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E6C6C61B0A2CAA00F64560 /* Sweetr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6C6E81B0A2CAA00F64560 /* Build configuration list for PBXNativeTarget "Sweetr" */;
+			buildPhases = (
+				E8E6C6C31B0A2CAA00F64560 /* Sources */,
+				E8E6C6C41B0A2CAA00F64560 /* Frameworks */,
+				E8E6C6C51B0A2CAA00F64560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sweetr;
+			productName = Sweetr;
+			productReference = E8E6C6C71B0A2CAA00F64560 /* Sweetr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E6C6DD1B0A2CAA00F64560 /* SweetrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6C6EB1B0A2CAA00F64560 /* Build configuration list for PBXNativeTarget "SweetrTests" */;
+			buildPhases = (
+				E8E6C6DA1B0A2CAA00F64560 /* Sources */,
+				E8E6C6DB1B0A2CAA00F64560 /* Frameworks */,
+				E8E6C6DC1B0A2CAA00F64560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E6C6E01B0A2CAA00F64560 /* PBXTargetDependency */,
+			);
+			name = SweetrTests;
+			productName = SweetrTests;
+			productReference = E8E6C6DE1B0A2CAA00F64560 /* SweetrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E6C6BF1B0A2CAA00F64560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Chris Aaron";
+				TargetAttributes = {
+					E8E6C6C61B0A2CAA00F64560 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E8E6C6DD1B0A2CAA00F64560 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E8E6C6C61B0A2CAA00F64560;
+					};
+				};
+			};
+			buildConfigurationList = E8E6C6C21B0A2CAA00F64560 /* Build configuration list for PBXProject "Sweetr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E6C6BE1B0A2CAA00F64560;
+			productRefGroup = E8E6C6C81B0A2CAA00F64560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E6C6C61B0A2CAA00F64560 /* Sweetr */,
+				E8E6C6DD1B0A2CAA00F64560 /* SweetrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E6C6C51B0A2CAA00F64560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6C6D41B0A2CAA00F64560 /* Main.storyboard in Resources */,
+				E8E6C6D91B0A2CAA00F64560 /* LaunchScreen.xib in Resources */,
+				E8E6C6D61B0A2CAA00F64560 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6C6DC1B0A2CAA00F64560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E6C6C31B0A2CAA00F64560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6C6D11B0A2CAA00F64560 /* SecondViewController.swift in Sources */,
+				E8E6C6CD1B0A2CAA00F64560 /* AppDelegate.swift in Sources */,
+				E8E6C6CF1B0A2CAA00F64560 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6C6DA1B0A2CAA00F64560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6C6E51B0A2CAA00F64560 /* SweetrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8E6C6E01B0A2CAA00F64560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E6C6C61B0A2CAA00F64560 /* Sweetr */;
+			targetProxy = E8E6C6DF1B0A2CAA00F64560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8E6C6D21B0A2CAA00F64560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E6C6D31B0A2CAA00F64560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8E6C6D71B0A2CAA00F64560 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E6C6D81B0A2CAA00F64560 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E6C6E61B0A2CAA00F64560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8E6C6E71B0A2CAA00F64560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E6C6E91B0A2CAA00F64560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sweetr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8E6C6EA1B0A2CAA00F64560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sweetr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8E6C6EC1B0A2CAA00F64560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SweetrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweetr.app/Sweetr";
+			};
+			name = Debug;
+		};
+		E8E6C6ED1B0A2CAA00F64560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SweetrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweetr.app/Sweetr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E6C6C21B0A2CAA00F64560 /* Build configuration list for PBXProject "Sweetr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6C6E61B0A2CAA00F64560 /* Debug */,
+				E8E6C6E71B0A2CAA00F64560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E6C6E81B0A2CAA00F64560 /* Build configuration list for PBXNativeTarget "Sweetr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6C6E91B0A2CAA00F64560 /* Debug */,
+				E8E6C6EA1B0A2CAA00F64560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8E6C6EB1B0A2CAA00F64560 /* Build configuration list for PBXNativeTarget "SweetrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6C6EC1B0A2CAA00F64560 /* Debug */,
+				E8E6C6ED1B0A2CAA00F64560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E6C6BF1B0A2CAA00F64560 /* Project object */;
+}
